@@ -1,0 +1,30 @@
+{
+  "name": "bank-challenge",
+  "version": "1.0.0",
+  "description": "Bank challenge simulation",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "start:dev": "npx nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
+  },
+  "keywords": [
+    "bank",
+    "challenge",
+    "simulation"
+  ],
+  "author": "Alexander Camacho",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-promise-router": "^4.1.1",
+    "moment": "^2.29.3",
+    "nodemon": "^2.0.16",
+    "winston": "^3.7.2"
+  }
+}
